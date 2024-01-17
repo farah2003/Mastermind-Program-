@@ -128,7 +128,6 @@ header {
 }
 
 .categories-section ul li {
-  width: 20.435px;
   list-style-type: none;
   color: var(--white-text-color);
   font-size: 20px;
@@ -146,7 +145,8 @@ header {
 }
 .course-categories .title {
   color: var(--main-background-color);
-  font-weight: var(--main-font-size-mobile);
+  font-size: var(--main-font-size-mobile);
+  font-weight: 700;
   line-height: 115.728%;
   margin-bottom: 12px;
 }
