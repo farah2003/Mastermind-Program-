@@ -32,13 +32,11 @@ header {
 .navigation-bar .logo {
   width: 51px;
   height: 51px;
-  flex-shrink: 0;
 }
 
 .navigation-bar .logo-title {
   color: var(--black-text-color);
   font-size: 34px;
-  line-height: 39px;
   font-weight: 900;
 }
 
@@ -50,14 +48,11 @@ header {
   color: var(--secandary-text-color);
   font-size: 81px;
   font-weight: 900;
-  line-height: 94px;
   margin: 255px 0 20px 0;
 }
-
 .description {
   font-size: 20px;
   font-weight: 400;
-  line-height: 23px;
   color: var(--main-text-color);
   margin-bottom: 32px;
   white-space: pre-line;
