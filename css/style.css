@@ -6,6 +6,7 @@
   --secandary-text-color: #ed7d31;
   --black-text-color: #000;
   --main-font-size: 50px;
+  --main-font-size-mobile: 30px;
 }
 * {
   padding: 0;
@@ -150,8 +151,7 @@ header {
 }
 .course-categories .title {
   color: var(--main-background-color);
-  font-size: 30px;
-  font-weight: 700;
+  font-weight: var(--main-font-size-mobile);
   line-height: 115.728%;
   margin-bottom: 12px;
 }
@@ -268,7 +268,7 @@ footer p {
 
   .details .question,
   .categories-section-title {
-    font-size: 30px;
+    font-size: var(--main-font-size-mobile);
   }
   .details {
     padding: 20px 20px;
@@ -308,12 +308,12 @@ footer p {
     height: 319.379px;
   }
   .register-section-title {
-    font-size: 30px;
+    font-size: var(--main-font-size-mobile);
   }
   .register-section-description {
     font-size: 14px;
     white-space: normal;
-    margin: 0 30px;
+    margin: 0 var(--main-font-size-mobile);
   }
 
   .registration-section .btn {
