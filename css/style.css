@@ -58,6 +58,10 @@ header {
   white-space: pre-line;
   margin-right: 430px;
 }
+.btn a {
+  text-decoration: none;
+  color: var(--white-text-color);
+}
 .btn {
   font-size: 17px;
   font-weight: 400;
